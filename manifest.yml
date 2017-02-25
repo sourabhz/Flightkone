@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Flightkone
+  host: Flightkone
+  disk_quota: 1024M
+  services:
+  - Flightkone-AdvancedMobileAccess
+  - Flightkone-imfpush
+  - Flightkone-cloudantNoSQLDB
